@@ -395,7 +395,7 @@ FAQ Styles
 @media only screen and (min-width: 768px){
  /*CSS styles for tablet*/ 
   
-  .content-wrapper {
+.content-wrapper {
     max-width: 650px;
   }
   
@@ -404,8 +404,7 @@ header .content-wrapper{
       justify-content: space-between;
       align-items: center;
       flex-flow: row nowrap;
-       margin: 0;
-  }
+        }
   
   .hero-area h1{
     width: 70%;
@@ -446,25 +445,65 @@ aside .form-description, aside .form {
   width: 40%;
   }
 
-  footer .content-wrapper{
-    width: 85%;
-  }
   
-  .footer-content{
+.footer-content{
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
     }
  
  footer .contact, footer .social{
     width: 40%;
   }
-}/*css for tablets HOMEPAGE ends*/
 
-/*CSS Tablet Styles for the About Page*/
+/*css for tablets HOMEPAGE ends*/
 
+/*CSS Tablet Styles for the ABOUT Page*/
 
+ .mission-content {
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    }
 
+.mission-content p{
+  width: 40%;
+  
+}
 
+   .contact-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.contact-content div{
+  width: 40%;
+}
+
+/*CSS Tablet Styles for the ABOUT Page ENDS*/
+
+/*CSS Tablet Styles for the FAQ Page*/
+  .faq content-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .faq h2{
+    width: 100%;
+  }
+  
+  .faq-content{
+    flex-basis: 35%;
+    
+  }
+  
+  
+  
+ /*CSS Tablet Styles for the FAQ Page ENDS*/  
+  
+  
+  
 @media only screen and (min-width: 1200px){
     /*CSS Styles for desktop*/
 }
