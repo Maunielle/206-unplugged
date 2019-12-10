@@ -147,6 +147,10 @@ header nav ul{
   width: 100%;
 }
 
+ul{
+  list-style: none;
+  padding: 0;
+}
 footer{
   flex-direction: column;
 }
@@ -207,7 +211,8 @@ aside {
 }
 
 input{
-  padding: 15px 0;
+  padding: 0 0 15px 0;
+  width: 50%
 }
 
 
@@ -406,6 +411,7 @@ header .content-wrapper{
       flex-flow: row nowrap;
         }
   
+  
   .hero-area h1{
     width: 70%;
   }
@@ -418,6 +424,7 @@ aside .content-wrapper{
       display: flex;
       justify-content: space-between;
       align-items: baseline;
+      flex-flow: wrap;
   }
 
 aside .form-description, aside .form {
@@ -510,7 +517,16 @@ aside .form-description, aside .form {
   
 @media only screen and (min-width: 1200px){
     /*CSS Styles for desktop*/
+
+  .content-wrapper{
+    max-width: 1000px;
+  }  
+  .features article {
+  width: 30%;
+  margin: 30px 0;
 }
+  
+  } /*CSS Styles for desktop ENDS*/
 
   
   
