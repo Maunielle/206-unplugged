@@ -259,14 +259,14 @@ input{
 About Styles
    ========================================================================== */
 .mission  {
-   display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
 .contact-section  {
-   display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
@@ -448,7 +448,7 @@ aside .form-description, aside .form {
   
 .footer-content{
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
     }
  
  footer .contact, footer .social{
@@ -470,7 +470,7 @@ aside .form-description, aside .form {
   
 }
 
-   .contact-content {
+.contact-content {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -483,20 +483,28 @@ aside .form-description, aside .form {
 /*CSS Tablet Styles for the ABOUT Page ENDS*/
 
 /*CSS Tablet Styles for the FAQ Page*/
-  .faq content-wrapper{
+  
+  .faq{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    flex-flow: row wrap;
   }
   
-  .faq h2{
+  .faq .content-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+  .faq h2 {
     width: 100%;
   }
   
   .faq-content{
-    flex-basis: 35%;
-    
+    flex-basis: 40%;
   }
+
   
   
   
